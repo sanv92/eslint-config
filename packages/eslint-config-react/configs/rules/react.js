@@ -9,4 +9,4 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
     'react/jsx-one-expression-per-line': 'warn',
   },
-};
+}
