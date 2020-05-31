@@ -1,5 +1,5 @@
 {
-  "name": "@sanv/eslint-config-typescript",
+  "name": "@sanv/eslint-config-react",
   "version": "1.0.0",
   "description": "TypeScript Config for ESLint",
   "main": ".eslintrc.js",
