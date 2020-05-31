@@ -1,11 +1,17 @@
-# `eslint-config-base`
+# ESLint Config Base
 
-> TODO: description
+## JavaScript
 
-## Usage
+1. Install the correct version of package, which are listed by the command:
 
+```bash
+npm install "@sanv/eslint-config-base" --save-dev
 ```
-const eslintConfigBase = require('eslint-config-base');
 
-// TODO: DEMONSTRATE API
+2. Add next line to your `.eslintrc.js`:
+
+```json
+{
+  "extends": "@sanv/eslint-config-base"
+}
 ```
