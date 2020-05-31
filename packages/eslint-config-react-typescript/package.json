@@ -1,4 +1,5 @@
 {
+  "private": false,
   "name": "@sanv/eslint-config-react-typescript",
   "version": "1.0.3",
   "description": "TypeScript Config for ESLint",
