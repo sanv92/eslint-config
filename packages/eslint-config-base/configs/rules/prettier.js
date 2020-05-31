@@ -4,14 +4,18 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        arrowParens: 'always',
         printWidth: 80,
-        semi: false,
-        singleQuote: true,
         tabWidth: 2,
+        singleQuote: true,
         trailingComma: 'all',
+        semi: false,
+        bracketSpacing: true,
+        jsxBracketSameLine: false,
+        arrowParens: 'always',
+        quoteProps: 'consistent',
         useTabs: false,
+        endOfLine: 'lf',
       },
     ],
   },
-};
+}
