@@ -1,6 +1,6 @@
 {
   "name": "@sanv/eslint-config-base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Base config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
