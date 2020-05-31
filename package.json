@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "lerna exec 'npm test'",
+    "version": "lerna version --conventional-commits --yes",
+    "bootstrap": "lerna bootstrap",
+    "prepublishOnly": "lerna exec 'npm test'",
+    "publish": "lerna publish",
+    "commit": "npx git-cz",
+    "prettier": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\""
+  },
+  "license": "ISC",
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@sanv/sharec-config": "^1.0.6",
+    "cz-conventional-changelog": "3.0.2",
+    "husky": "4.2.5",
+    "lerna": "3.22.0",
+    "lint-staged": "10.2.2",
+    "prettier": "2.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "sharec": {
+    "config": "@sanv/sharec-config",
+    "version": "1.0.6"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
