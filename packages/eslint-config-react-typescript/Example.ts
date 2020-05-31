@@ -6,14 +6,14 @@
 // Here's an example class:
 
 class Vendor {
-  name: string;
+  name: string
 
   constructor(name: string) {
-    this.name = name;
+    this.name = name
   }
 
   greet() {
-    return 'Hello, welcome to ' + this.name;
+    return 'Hello, welcome to ' + this.name
   }
 }
 
@@ -21,18 +21,18 @@ class Vendor {
 // you can call methods and access properties from the
 // object.
 
-const shop = new Vendor('Ye Olde Shop');
-console.log(shop.greet());
+const shop = new Vendor('Ye Olde Shop')
+console.log(shop.greet())
 
 // You can subclass an object. Here's a food cart which
 // has a variety as well as a name:
 
 class FoodTruck extends Vendor {
-  cuisine: string;
+  cuisine: string
 
   constructor(name: string, cuisine: string) {
-    super(name);
-    this.cuisine = cuisine;
+    super(name)
+    this.cuisine = cuisine
   }
 
   greet() {
@@ -42,7 +42,7 @@ class FoodTruck extends Vendor {
       '. We serve ' +
       this.cuisine +
       ' food.'
-    );
+    )
   }
 }
 
@@ -50,10 +50,10 @@ class FoodTruck extends Vendor {
 // to create a new FoodTruck, TypeScript will provide errors
 // when you only use one:
 
-const nameOnlyTruck = new FoodTruck("Salome's Adobo");
+const nameOnlyTruck = new FoodTruck("Salome's Adobo")
 
 // Correctly passing in two arguments will let you create a
 // new instance of the FoodTruck:
 
-const truck = new FoodTruck("Dave's Doritos", 'junk');
-console.log(truck.greet());
+const truck = new FoodTruck("Dave's Doritos", 'junk')
+console.log(truck.greet())

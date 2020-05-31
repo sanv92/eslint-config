@@ -29,4 +29,4 @@ module.exports = {
   scopes: [{ name: 'javascript' }, { name: 'react' }],
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix', 'revert'],
-};
+}
