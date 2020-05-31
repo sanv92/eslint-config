@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-typescript",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "TypeScript Config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
