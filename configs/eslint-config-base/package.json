@@ -10,21 +10,24 @@
     "type": "git",
     "url": "git+https://github.com/SanderV1992/eslint-config.git"
   },
-  "keywords": [
-    "style",
-    "guide",
-    "lint",
-    "rules",
-    "config",
-    "es6",
-    "es2015",
-    "es2016",
-    "javascript"
-  ],
   "bugs": {
     "url": "https://github.com/SanderV1992/eslint-config/issues"
   },
-  "homepage": "https://github.com/SanderV1992/eslint-config",
+  "homepage": "https://github.com/SanderV1992/eslint-config#readme",
+  "license": "ISC",
+  "keywords": [
+    "eslint-config",
+    "eslint",
+    "config",
+    "react eslint config",
+    "react eslint",
+    "react typescript config",
+    "typescript config",
+    "eslint jest config",
+    "eslint jest",
+    "eslint stories config",
+    "eslint stories"
+  ],
   "dependencies": {
     "eslint": "7.1.0",
     "prettier": "2.0.5",

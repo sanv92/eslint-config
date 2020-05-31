@@ -8,25 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SanderV1992/eslint-config-typescript.git"
+    "url": "git+https://github.com/SanderV1992/eslint-config.git"
   },
-  "keywords": [
-    "style",
-    "guide",
-    "lint",
-    "rules",
-    "config",
-    "es6",
-    "es2015",
-    "es2016",
-    "react",
-    "component",
-    "javascript"
-  ],
   "bugs": {
-    "url": "https://github.com/SanderV1992/eslint-config-typescript/issues"
+    "url": "https://github.com/SanderV1992/eslint-config/issues"
   },
-  "homepage": "https://github.com/SanderV1992/eslint-config-typescript",
+  "homepage": "https://github.com/SanderV1992/eslint-config#readme",
+  "license": "ISC",
+  "keywords": [
+    "eslint-config",
+    "eslint",
+    "config",
+    "react eslint config",
+    "react eslint",
+    "react typescript config",
+    "typescript config",
+    "eslint jest config",
+    "eslint jest",
+    "eslint stories config",
+    "eslint stories"
+  ],
   "dependencies": {
     "@sanv/eslint-config-base": "1.0.0",
     "eslint": "7.1.0",
