@@ -34,7 +34,7 @@
     "prepublishOnly": "lerna exec 'npm test'",
     "publish": "lerna publish",
     "commit": "npx git-cz",
-    "prettier": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\""
+    "prettier": "prettier --write \"./**/**.{ts,tsx,js,jsx,json}\""
   },
   "workspaces": ["packages/*"],
   "devDependencies": {

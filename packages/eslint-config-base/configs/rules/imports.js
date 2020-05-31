@@ -1,4 +1,4 @@
-var extensions = require('packages/eslint-config-base/constants/extensions');
+var extensions = require('packages/eslint-config-base/constants/extensions')
 
 module.exports = {
   plugins: ['import'],
@@ -72,11 +72,11 @@ module.exports = {
       'warn',
       'ignorePackages',
       {
-        js: 'never',
-        mjs: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
+        'js': 'never',
+        'mjs': 'never',
+        'jsx': 'never',
+        'ts': 'never',
+        'tsx': 'never',
         'd.ts': 'never',
       },
     ],
@@ -98,7 +98,7 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: [
+        'groups': [
           'builtin',
           'external',
           'internal',
@@ -110,4 +110,4 @@ module.exports = {
       },
     ],
   },
-};
+}

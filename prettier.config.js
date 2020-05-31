@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   printWidth: 80,
@@ -49,4 +49,4 @@ module.exports = {
   useTabs: false,
 
   endOfLine: 'lf',
-};
+}

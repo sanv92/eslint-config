@@ -4,7 +4,7 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:unicorn/recommended',
-    'plugin:prettier/recommended',
     './configs/index',
+    'plugin:prettier/recommended',
   ],
-};
+}

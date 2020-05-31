@@ -5,7 +5,7 @@ import { reinstall } from '..'
 import { four } from './four'
 import { five } from './five.json'
 
-const example = {
+const eslintConfigBaseExample = {
   'first': 1,
   'second': 2,
   'third-e': ['1', '2', '3', '4'],
@@ -41,8 +41,8 @@ const dats = {
 
 const PART_NUM = 12
 const inside = resolve(
-  example,
-  `report${example['third-e'].join(',')}`,
+  eslintConfigBaseExample,
+  `report${eslintConfigBaseExample['third-e'].join(',')}`,
   `foo${PART_NUM}`,
   reinstall.path,
   format(dats),
@@ -65,10 +65,10 @@ try {
 try {
   const demo = 1
 
-  example.first += demo
-  example.second = --example.first
+  eslintConfigBaseExample.first += demo
+  eslintConfigBaseExample.second = --eslintConfigBaseExample.first
 } catch (_error) {
-  example.second = 0
+  eslintConfigBaseExample.second = 0
 }
 
 const OFFSET = 12
@@ -76,11 +76,11 @@ const INCR = 0.3
 
 let target = global.meet ? 'overrided' : 'misleaded'
 
-target = example.first + OFFSET
+target = eslintConfigBaseExample.first + OFFSET
 
 export function fill() {
   return testAsync()
 }
 
 export const demo = target * INCR
-export { example }
+export { eslintConfigBaseExample }

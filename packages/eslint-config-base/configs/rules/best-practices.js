@@ -32,4 +32,4 @@ module.exports = {
     // https://eslint.org/docs/rules/no-sequences
     'no-sequences': 'warn',
   },
-};
+}

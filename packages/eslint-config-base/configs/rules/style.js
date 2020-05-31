@@ -6,11 +6,11 @@ module.exports = {
 
     // specify whether double or single quotes should be used
     // https://eslint.org/docs/rules/quotes
-    quotes: 'off',
+    'quotes': 'off',
 
     // require or disallow use of semicolons instead of ASI
     // https://eslint.org/docs/rules/semi-style
-    semi: 'off',
+    'semi': 'off',
 
     // require identifiers to match the provided regular expression
     // https://eslint.org/docs/rules/id-match
@@ -27,4 +27,4 @@ module.exports = {
     // https://eslint.org/docs/rules/no-plusplus
     'no-plusplus': 'off',
   },
-};
+}

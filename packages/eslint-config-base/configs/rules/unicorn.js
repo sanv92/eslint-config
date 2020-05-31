@@ -1,4 +1,4 @@
-var extensions = require('packages/eslint-config-base/constants/extensions');
+var extensions = require('packages/eslint-config-base/constants/extensions')
 
 module.exports = {
   plugins: ['unicorn'],
@@ -72,4 +72,4 @@ module.exports = {
     'unicorn/string-content': 'off',
     'unicorn/throw-new-error': 'error',
   },
-};
+}
