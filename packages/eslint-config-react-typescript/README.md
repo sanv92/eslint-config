@@ -1,6 +1,6 @@
 # ESLint Config for TypeScript support
 
-## React
+## React + TypeScript
 
 1. Install the correct version of package, which are listed by the command:
 

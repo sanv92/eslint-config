@@ -1,9 +1,9 @@
-var extensions = require('packages/eslint-config-base/constants/extensions')
+var extensions = require('../../constants/extensions')
 
 module.exports = {
   plugins: ['import'],
   settings: {
-    'import/extensions': extensions.js,
+    'import/extensions': js,
     'import/resolver': {
       node: {
         moduleDirectory: ['node_modules', 'src'],

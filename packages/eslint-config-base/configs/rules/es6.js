@@ -10,7 +10,6 @@ module.exports = {
       objectLiteralDuplicateProperties: false,
     },
   },
-
   rules: {
     // disallow arrow functions where they could be confused with comparisons
     // https://eslint.org/docs/rules/no-confusing-arrow
