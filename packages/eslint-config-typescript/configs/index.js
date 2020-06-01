@@ -1,8 +1,9 @@
 module.exports = {
-  extends: ['./rules/best-practices'].map(require.resolve),
+  extends: ['./rules/best-practices', './rules/typescript'].map(
+    require.resolve,
+  ),
   parserOptions: {
-    ecmaVersion: 2020,
+    project: '../tsconfig.json',
     sourceType: 'module',
   },
-  rules: {},
 }
