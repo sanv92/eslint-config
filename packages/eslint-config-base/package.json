@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-base",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Base config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
