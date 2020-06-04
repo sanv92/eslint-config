@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@sanv/eslint-config-react-typescript",
+  "name": "@sanv/eslint-config-typescript",
   "version": "1.1.1",
   "description": "TypeScript Config for ESLint",
   "main": ".eslintrc.js",
