@@ -1,8 +1,8 @@
 {
   "private": false,
-  "name": "@sanv/eslint-config-react",
+  "name": "@sanv/eslint-config-stories",
   "version": "1.1.1",
-  "description": "React Config for ESLint",
+  "description": "Storybook Config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
     "access": "public"

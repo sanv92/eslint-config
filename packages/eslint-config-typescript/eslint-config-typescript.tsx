@@ -50,10 +50,10 @@ class FoodTruck extends Vendor {
 // to create a new FoodTruck, TypeScript will provide errors
 // when you only use one:
 
-const nameOnlyTruck = new FoodTruck("Salome's Adobo")
+const nameOnlyTruck = new FoodTruck('test1', 'test2')
 
 // Correctly passing in two arguments will let you create a
 // new instance of the FoodTruck:
 
-const truck = new FoodTruck("Dave's Doritos", 'junk')
+const truck = new FoodTruck('Dave`s Doritos', 'junk')
 console.log(truck.greet())
