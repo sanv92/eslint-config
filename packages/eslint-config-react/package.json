@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-react",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React Config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
