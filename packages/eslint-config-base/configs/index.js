@@ -4,7 +4,6 @@ module.exports = {
     './rules/unicorn',
     './rules/best-practices',
     './rules/es6',
-    './rules/imports',
     './rules/prettier',
     './rules/strict',
     './rules/style',
