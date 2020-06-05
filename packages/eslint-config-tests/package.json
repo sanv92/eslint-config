@@ -45,7 +45,7 @@
     "prettier": "2.0.5"
   },
   "peerDependencies": {
-    "@sanv/eslint-config-base": "1.0.*",
+    "@sanv/eslint-config-base": "1.2.*",
     "babel-eslint": "10.*",
     "eslint": "7.*",
     "eslint-config-airbnb": "18.1.*",
