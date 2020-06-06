@@ -34,13 +34,14 @@
     "prepublishOnly": "lerna exec 'npm test'",
     "publish": "lerna publish",
     "commit": "npx git-cz",
-    "prettier": "prettier --write \"./**/**.{ts,tsx,js,jsx,json}\""
+    "prettier": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\"",
+    "sharec": "sharec"
   },
   "workspaces": ["packages/*"],
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "@sanv/sharec-config": "1.0.13",
+    "@sanv/sharec-config": "1.0.14",
     "cz-conventional-changelog": "3.0.2",
     "husky": "4.2.5",
     "lerna": "3.22.0",
@@ -54,7 +55,7 @@
   },
   "sharec": {
     "config": "@sanv/sharec-config",
-    "version": "1.0.13"
+    "version": "1.0.14"
   },
   "engines": {
     "node": ">=8"
