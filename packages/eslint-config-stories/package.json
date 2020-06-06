@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-stories",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Storybook Config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -30,7 +30,7 @@
     "eslint stories"
   ],
   "dependencies": {
-    "@sanv/eslint-config-base": "1.2.6",
+    "@sanv/eslint-config-base": "^1.2.7",
     "babel-eslint": "10.1.0",
     "eslint": "7.1.0",
     "eslint-config-airbnb": "18.1.0",
