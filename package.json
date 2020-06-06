@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@sanv/eslint-config",
-  "description": "",
+  "description": "Full collection of shareable ESLint configs",
   "publishConfig": {
     "access": "public"
   },
