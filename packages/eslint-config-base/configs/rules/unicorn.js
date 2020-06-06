@@ -1,4 +1,4 @@
-const extensions = require('packages/eslint-config-base/constants/extensions')
+const extensions = require('../../constants/extensions')
 
 module.exports = {
   plugins: ['unicorn'],

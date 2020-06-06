@@ -1,9 +1,9 @@
-var extensions = require('../../constants/extensions')
+const extensions = require('../../constants/extensions')
 
 module.exports = {
   plugins: ['import'],
   settings: {
-    'import/extensions': js,
+    'import/extensions': extensions.js,
     'import/resolver': {
       node: {
         moduleDirectory: ['node_modules', 'src'],
