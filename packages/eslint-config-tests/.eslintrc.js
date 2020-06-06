@@ -5,10 +5,10 @@ module.exports = {
     'airbnb/hooks',
     '@sanv/eslint-config-base',
     './configs/index',
-    'plugin:jest/recommended',
-    'plugin:jest/style',
     'prettier/react',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
+    'plugin:jest/style',
   ],
   env: {
     'jest/globals': true,

@@ -4,19 +4,8 @@ module.exports = {
     // Have control over test and it usages (consistent-test-it)
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/consistent-test-it.md
     'jest/consistent-test-it': [
-      'warn',
-      {
-        type: 'object',
-        properties: {
-          fn: {
-            enum: ['test'],
-          },
-          withinDescribe: {
-            enum: ['test'],
-          },
-        },
-        additionalProperties: false,
-      },
+      'error',
+      { fn: 'test', withinDescribe: 'test' },
     ],
 
     // Require top-level describe block (require-top-level-describe)
