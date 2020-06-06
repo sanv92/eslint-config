@@ -1,6 +1,4 @@
-# ESLint Config
-
-# ESLint Config Base
+# ESLint Configs
 
 ## JavaScript
 
