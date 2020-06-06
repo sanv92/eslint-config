@@ -2,10 +2,10 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react', 'jsx-a11y', '@typescript-eslint', 'jest'],
   extends: [
-    '@sanv/eslint-config-base',
     'airbnb',
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
+    '@sanv/eslint-config-base',
     './configs/index',
     'plugin:jest/recommended',
     'plugin:jest/style',

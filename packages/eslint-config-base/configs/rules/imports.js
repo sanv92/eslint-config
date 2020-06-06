@@ -1,4 +1,5 @@
 const extensions = require('../../constants/extensions')
+const path = require('../../constants/path')
 
 module.exports = {
   plugins: ['import'],
@@ -83,7 +84,7 @@ module.exports = {
     'import/newline-after-import': ['warn', { count: 1 }],
     'import/prefer-default-export': 'off',
     'import/max-dependencies': 'off',
-    'import/no-unassigned-import': 'warn',
+    'import/no-unassigned-import': ['warn', { allow: path.css }],
     'import/no-named-default': 'error',
     'import/no-named-export': 'off',
     'import/no-default-export': 'error',

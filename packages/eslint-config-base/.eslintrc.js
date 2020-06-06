@@ -7,4 +7,11 @@ module.exports = {
     './configs/index',
     'plugin:prettier/recommended',
   ],
+  env: {
+    browser: true,
+    node: true,
+  },
+  globals: {
+    document: false,
+  },
 }

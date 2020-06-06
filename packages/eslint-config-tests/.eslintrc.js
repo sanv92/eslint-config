@@ -1,9 +1,9 @@
 module.exports = {
   plugins: ['react', 'jsx-a11y', 'jest'],
   extends: [
-    '@sanv/eslint-config-base',
     'airbnb',
     'airbnb/hooks',
+    '@sanv/eslint-config-base',
     './configs/index',
     'plugin:jest/recommended',
     'plugin:jest/style',
