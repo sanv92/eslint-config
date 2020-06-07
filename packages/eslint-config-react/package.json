@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-react",
-  "version": "1.2.8",
+  "version": "1.2.11",
   "description": "React Config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -30,7 +30,7 @@
     "eslint stories"
   ],
   "dependencies": {
-    "@sanv/eslint-config-base": "^1.2.7",
+    "@sanv/eslint-config-base": "^1.2.11",
     "babel-eslint": "10.1.0",
     "eslint": "7.1.0",
     "eslint-config-airbnb": "18.1.0",
