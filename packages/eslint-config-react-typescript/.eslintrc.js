@@ -1,6 +1,10 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['import', 'react', 'jsx-a11y', '@typescript-eslint'],
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+  },
   extends: [
     'airbnb',
     'airbnb/hooks',

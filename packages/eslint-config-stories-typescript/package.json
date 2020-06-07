@@ -44,6 +44,7 @@
     "eslint-plugin-react": "7.20.0",
     "eslint-plugin-react-hooks": "4.0.4",
     "eslint-plugin-unicorn": "20.0.0",
+    "eslint-import-resolver-typescript": "2.0.0",
     "prettier": "2.0.5",
     "typescript": "3.9.5"
   },
@@ -62,6 +63,7 @@
     "eslint-plugin-react": "7.20.*",
     "eslint-plugin-react-hooks": "4.0.*",
     "eslint-plugin-unicorn": "20.0.*",
+    "eslint-import-resolver-typescript": "2.0.*",
     "prettier": "2.0.*",
     "typescript": "3.9.*"
   }
