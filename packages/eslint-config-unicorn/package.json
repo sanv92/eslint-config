@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@sanv/eslint-config-base",
+  "name": "@sanv/eslint-config-unicorn",
   "version": "1.2.14",
   "description": "Base config for ESLint",
   "main": ".eslintrc.js",
