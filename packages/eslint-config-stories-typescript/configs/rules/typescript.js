@@ -82,11 +82,12 @@ module.exports = {
     '@typescript-eslint/default-param-last':
       baseBestPracticesAirbnbRules['default-param-last'],
 
+    // TODO: not working properly, complaints about "import", the rules are not related to "import", try to update the library in the future or create an issue
     // Replace Airbnb 'comma-spacing' rule with '@typescript-eslint' version
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
-    'dot-notation': 'off',
-    '@typescript-eslint/dot-notation':
-      baseBestPracticesAirbnbRules['dot-notation'],
+    // 'dot-notation': 'off',
+    // '@typescript-eslint/dot-notation':
+    //  baseBestPracticesAirbnbRules['dot-notation'],
 
     // Replace Airbnb 'func-call-spacing' rule with '@typescript-eslint' version
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/func-call-spacing.md
@@ -111,11 +112,12 @@ module.exports = {
     '@typescript-eslint/keyword-spacing':
       baseStyleAirbnbRules['keyword-spacing'],
 
+    // TODO: not working properly, complaints about "import", the rules are not related to "import", try to update the library in the future or create an issue
     // Replace Airbnb 'indent' rule with '@typescript-eslint' version
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/lines-between-class-members.md
-    'lines-between-class-members': 'off',
-    '@typescript-eslint/lines-between-class-members':
-      baseStyleAirbnbRules['lines-between-class-members'],
+    // 'lines-between-class-members': 'off',
+    // '@typescript-eslint/lines-between-class-members':
+    //   baseStyleAirbnbRules['lines-between-class-members'],
 
     // Replace Airbnb 'no-array-constructor' rule with '@typescript-eslint' version
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-array-constructor.md
