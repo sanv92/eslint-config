@@ -1,5 +1,6 @@
 module.exports = {
-  css: [
+  ts: ['*.ts', '*.tsx'],
+  globCss: [
     '**/*.css',
     '**/*.scss',
     '**/*.less',

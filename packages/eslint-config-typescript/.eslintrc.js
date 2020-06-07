@@ -1,6 +1,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['import', '@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     '@sanv/eslint-config-base',

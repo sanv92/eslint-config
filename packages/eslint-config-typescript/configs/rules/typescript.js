@@ -31,6 +31,7 @@ const {
 } = require('@sanv/eslint-config-base/configs/rules/style')
 
 const extensions = require('../../constants/extensions')
+const files = require('../../constants/files')
 
 module.exports = {
   plugins: ['@typescript-eslint'],
@@ -40,23 +41,15 @@ module.exports = {
     sourceType: 'module',
   },
   settings: {
-    'import/extensions': extensions.ts,
-    'react': {
-      version: 'detect',
-    },
     'import/parsers': {
       '@typescript-eslint/parser': extensions.ts,
     },
     'import/resolver': {
       node: {
-        moduleDirectory: ['node_modules', 'src'],
         extensions: extensions.ts,
       },
-      typescript: {
-        directory: ['../../tsconfig.json'],
-        alwaysTryTypes: true,
-      },
     },
+    'import/extensions': extensions.ts,
     'import/core-modules': [],
     'import/ignore': ['\\.(coffee|scss|css|less|hbs|svg|json)$'],
   },
@@ -215,7 +208,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.ts'],
+      files: files.ts,
       rules: {
         // Disable `no-undef` rule within TypeScript files because it incorrectly errors when exporting default interfaces
         // https://github.com/iamturns/eslint-config-airbnb-typescript/issues/50
