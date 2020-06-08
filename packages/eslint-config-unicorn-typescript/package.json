@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-unicorn-typescript",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "description": "Unicorn with TypeScript config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -30,7 +30,7 @@
     "eslint stories"
   ],
   "dependencies": {
-    "@sanv/eslint-config-unicorn": "1.2.15",
+    "@sanv/eslint-config-unicorn": "^1.2.16",
     "babel-eslint": "10.1.0",
     "eslint": "7.1.0",
     "eslint-plugin-unicorn": "20.1.0",
