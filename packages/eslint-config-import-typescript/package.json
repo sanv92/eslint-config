@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@sanv/eslint-config-import",
+  "name": "@sanv/eslint-config-import-typescript",
   "version": "1.2.14",
   "description": "Import config for ESLint",
   "main": ".eslintrc.js",
