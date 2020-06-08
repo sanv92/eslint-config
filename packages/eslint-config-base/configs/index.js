@@ -1,13 +1,10 @@
 module.exports = {
   extends: [
-    './rules/imports',
-    './rules/unicorn',
     './rules/best-practices',
     './rules/es6',
     './rules/prettier',
     './rules/strict',
     './rules/style',
-    './rules/unicorn',
     './rules/variables',
   ].map(require.resolve),
   parserOptions: {

@@ -1,8 +1,8 @@
 {
   "private": false,
-  "name": "@sanv/eslint-config-unicorn",
-  "version": "1.2.15",
-  "description": "Unicorn config for ESLint",
+  "name": "@sanv/eslint-config-import",
+  "version": "1.2.14",
+  "description": "Import config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
     "access": "public"
@@ -30,15 +30,17 @@
     "eslint stories"
   ],
   "dependencies": {
+    "@sanv/eslint-config-import": "^1.2.14",
     "babel-eslint": "10.1.0",
     "eslint": "7.1.0",
-    "eslint-plugin-unicorn": "20.1.0",
+    "eslint-plugin-import": "2.20.2",
     "prettier": "2.0.5"
   },
   "peerDependencies": {
+    "@sanv/eslint-config-import": "^1.2.*",
     "babel-eslint": "10.*",
     "eslint": "7.*",
-    "eslint-plugin-unicorn": "20.1.*",
+    "eslint-plugin-import": "2.20.*",
     "prettier": "2.0.*"
   }
 }

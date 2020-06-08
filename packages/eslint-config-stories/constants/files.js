@@ -1,5 +1,18 @@
 module.exports = {
+  js: ['*.js', '*.mjs', '*.jsx'],
   ts: ['*.ts', '*.tsx'],
+  jsAndTs: ['*.js', '*.mjs', '*.jsx', '*.ts', '*.tsx', '*.d.ts'],
+  css: ['*.css', '*.scss', '*.less', '*.less', '*.pcss', '*.pcss', '*.styl'],
+  globJs: ['**/*.js', '**/*.mjs', '**/*.jsx'],
+  globTs: ['**/*.ts', '**/*.tsx', '**/*.d.ts'],
+  globJsAndTs: [
+    '**/*.js',
+    '**/*.mjs',
+    '**/*.jsx',
+    '**/*.ts',
+    '**/*.tsx',
+    '**/*.d.ts',
+  ],
   globCss: [
     '**/*.css',
     '**/*.scss',
