@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-unicorn-typescript",
-  "version": "1.2.16",
+  "version": "1.2.18",
   "description": "Unicorn with TypeScript config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {

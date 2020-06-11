@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-react-typescript",
-  "version": "1.2.16",
+  "version": "1.2.18",
   "description": "React with TypeScript Config for ESLint",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -30,8 +30,8 @@
     "eslint stories"
   ],
   "dependencies": {
-    "@sanv/eslint-config-base": "^1.2.16",
-    "@sanv/eslint-config-react": "^1.2.16",
+    "@sanv/eslint-config-base": "^1.2.18",
+    "@sanv/eslint-config-react": "^1.2.18",
     "@typescript-eslint/eslint-plugin": "3.1.0",
     "@typescript-eslint/parser": "3.1.0",
     "babel-eslint": "10.1.0",
