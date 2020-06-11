@@ -1,7 +1,5 @@
 module.exports = {
   extends: [
-    './rules/imports',
-    './rules/unicorn',
     './rules/react',
     './rules/best-practices',
     './rules/react-hooks',
