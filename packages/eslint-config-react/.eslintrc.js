@@ -5,7 +5,5 @@ module.exports = {
     'airbnb/hooks',
     '@sanv/eslint-config-base',
     './configs/index',
-    'prettier/react',
-    'plugin:prettier/recommended',
   ],
 }

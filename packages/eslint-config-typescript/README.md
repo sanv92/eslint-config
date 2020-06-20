@@ -1,11 +1,11 @@
-# Eslint Unicorn Configuration with Typescript Support
+# Eslint Configuration with Typescript Support
 
-[![npm version](https://badge.fury.io/js/%40sanv%2Feslint-config-unicorn-typescript.svg)](https://badge.fury.io/js/%40sanv%2Feslint-config-unicorn-typescript)
+[![npm version](https://badge.fury.io/js/%40sanv%2Feslint-config-typescript.svg)](https://badge.fury.io/js/%40sanv%2Feslint-config-typescript)
 
 1. Install the correct version of package, which are listed by the command:
 
 ```bash
-npm install "@sanv/eslint-config-unicorn-typescript" --save-dev
+npm install "@sanv/eslint-config-typescript" --save-dev
 ```
 
 2. Add next line to your `.eslintrc.js`:
@@ -19,7 +19,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    '@sanv/eslint-config-unicorn-typescript',
+    '@sanv/eslint-config-tests-typescript',
     'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
   ],

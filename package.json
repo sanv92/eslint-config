@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@sanv/eslint-config",
-  "description": "Full collection of shareable ESLint configs",
+  "description": "Collection of shareable ESLint configs",
   "publishConfig": {
     "access": "public"
   },
@@ -26,7 +26,8 @@
     "eslint jest config",
     "eslint jest",
     "eslint stories config",
-    "eslint stories"
+    "eslint stories",
+    "eslint storybook"
   ],
   "scripts": {
     "test": "lerna exec 'npm test'",
@@ -41,7 +42,7 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "@sanv/sharec-config": "1.0.14",
+    "@sanv/sharec-config": "1.0.17",
     "cz-conventional-changelog": "3.0.2",
     "husky": "4.2.5",
     "lerna": "3.22.0",
@@ -55,7 +56,7 @@
   },
   "sharec": {
     "config": "@sanv/sharec-config",
-    "version": "1.0.14"
+    "version": "1.0.17"
   },
   "engines": {
     "node": ">=8"

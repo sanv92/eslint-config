@@ -1,6 +1,6 @@
-# ESLint Config Import
+# Eslint Import Configuration
 
-## JavaScript
+[![npm version](https://badge.fury.io/js/%40sanv%2Feslint-config-import.svg)](https://badge.fury.io/js/%40sanv%2Feslint-config-import)
 
 1. Install the correct version of package, which are listed by the command:
 
@@ -10,8 +10,11 @@ npm install "@sanv/eslint-config-import" --save-dev
 
 2. Add next line to your `.eslintrc.js`:
 
-```json
-{
-  "extends": "@sanv/eslint-config-import"
+```js
+module.exports = {
+  plugins: ['import'],
+  extends: [
+    '@sanv/eslint-config-import',
+  ],
 }
 ```

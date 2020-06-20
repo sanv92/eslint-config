@@ -3,14 +3,15 @@ const extensions = require('../../constants/extensions')
 module.exports = {
   plugins: ['import'],
   settings: {
-    'import/extensions': extensions.ts,
     'import/resolver': {
       node: {
         moduleDirectory: ['node_modules', 'src'],
-        extensions: extensions.ts,
+        extensions: extensions.jsAndTs,
       },
     },
+    'import/extensions': extensions.jsAndTs,
     'import/core-modules': [],
     'import/ignore': ['\\.(coffee|scss|css|less|hbs|svg|json)$'],
+    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
   },
 }

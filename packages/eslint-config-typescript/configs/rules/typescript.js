@@ -37,7 +37,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: '../../tsconfig.json',
+    project: './tsconfig.json',
     sourceType: 'module',
   },
   settings: {
@@ -45,13 +45,21 @@ module.exports = {
       '@typescript-eslint/parser': extensions.ts,
     },
     'import/resolver': {
+      typescript: {
+        // use <root>/tsconfig.json
+        directory: 'tsconfig.json',
+        // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+        alwaysTryTypes: true,
+      },
       node: {
-        extensions: extensions.ts,
+        moduleDirectory: ['node_modules', 'src'],
+        extensions: extensions.jsAndTs,
       },
     },
-    'import/extensions': extensions.ts,
+    'import/extensions': extensions.jsAndTs,
     'import/core-modules': [],
     'import/ignore': ['\\.(coffee|scss|css|less|hbs|svg|json)$'],
+    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
   },
   rules: {
     // Replace Airbnb 'brace-style' rule with '@typescript-eslint' version
@@ -205,6 +213,10 @@ module.exports = {
     'space-before-function-paren': 'off',
     '@typescript-eslint/space-before-function-paren':
       baseStyleAirbnbRules['space-before-function-paren'],
+
+    // Enforces consistent returning of awaited values (return-await)
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/return-await.md
+    '@typescript-eslint/return-await': ['error', 'in-try-catch'],
   },
   overrides: [
     {

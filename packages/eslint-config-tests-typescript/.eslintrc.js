@@ -1,17 +1,11 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['import', 'react', 'jsx-a11y', '@typescript-eslint'],
+  plugins: ['react', 'jsx-a11y', 'jest', '@typescript-eslint'],
   extends: [
-    'airbnb',
-    'airbnb/hooks',
-    'plugin:@typescript-eslint/recommended',
-    '@sanv/eslint-config-base',
-    './configs/index',
-    'plugin:prettier/recommended',
-    'prettier/react',
-    'prettier/@typescript-eslint',
     'plugin:jest/recommended',
     'plugin:jest/style',
+    '@sanv/eslint-config-react-typescript',
+    './configs/index',
   ],
   env: {
     'jest/globals': true,

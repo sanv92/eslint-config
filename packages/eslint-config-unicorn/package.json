@@ -2,7 +2,7 @@
   "private": false,
   "name": "@sanv/eslint-config-unicorn",
   "version": "1.2.16",
-  "description": "Unicorn config for ESLint",
+  "description": "Eslint Unicorn Configuration",
   "main": ".eslintrc.js",
   "publishConfig": {
     "access": "public"
@@ -27,18 +27,21 @@
     "eslint jest config",
     "eslint jest",
     "eslint stories config",
-    "eslint stories"
+    "eslint stories",
+    "eslint storybook"
   ],
   "dependencies": {
-    "babel-eslint": "10.1.0",
-    "eslint": "7.1.0",
-    "eslint-plugin-unicorn": "20.1.0",
-    "prettier": "2.0.5"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-unicorn": "^20.1.0",
+    "prettier": "^2.0.5"
   },
   "peerDependencies": {
-    "babel-eslint": "10.*",
-    "eslint": "7.*",
-    "eslint-plugin-unicorn": "20.1.*",
-    "prettier": "2.0.*"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-unicorn": "^20.1.0",
+    "prettier": "^2.0.5"
   }
 }

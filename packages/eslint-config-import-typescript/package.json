@@ -2,7 +2,7 @@
   "private": false,
   "name": "@sanv/eslint-config-import-typescript",
   "version": "1.2.18",
-  "description": "Import with TypeScript config for ESLint",
+  "description": "Eslint Import Configuration with Typescript Support",
   "main": ".eslintrc.js",
   "publishConfig": {
     "access": "public"
@@ -27,20 +27,21 @@
     "eslint jest config",
     "eslint jest",
     "eslint stories config",
-    "eslint stories"
+    "eslint stories",
+    "eslint storybook"
   ],
   "dependencies": {
     "@sanv/eslint-config-import": "^1.2.16",
-    "babel-eslint": "10.1.0",
-    "eslint": "7.1.0",
-    "eslint-plugin-import": "2.20.2",
-    "prettier": "2.0.5"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "prettier": "^2.0.5"
   },
   "peerDependencies": {
-    "@sanv/eslint-config-import": "^1.2.*",
-    "babel-eslint": "10.*",
-    "eslint": "7.*",
-    "eslint-plugin-import": "2.20.*",
-    "prettier": "2.0.*"
+    "@sanv/eslint-config-import": "^1.2.16",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "prettier": "^2.0.5"
   }
 }

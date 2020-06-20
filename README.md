@@ -1,129 +1,189 @@
 # ESLint Configs
 
-## JavaScript
+## Installation:
 
-1. Install the correct version of package, which are listed by the command:
-
-```bash
-npm install "@sanv/eslint-config-base" --save-dev
+```
+npm install --save-dev @sanv/eslint-config-base
+npm install --save-dev @sanv/eslint-config-import
+npm install --save-dev @sanv/eslint-config-import-typescript
+npm install --save-dev @sanv/eslint-config-react
+npm install --save-dev @sanv/eslint-config-react-typescript
+npm install --save-dev @sanv/eslint-config-stories
+npm install --save-dev @sanv/eslint-config-stories-typescript
+npm install --save-dev @sanv/eslint-config-tests
+npm install --save-dev @sanv/eslint-config-tests-typescript
+npm install --save-dev @sanv/eslint-config-typescript
+npm install --save-dev @sanv/eslint-config-unicorn
+npm install --save-dev @sanv/eslint-config-unicorn-typescript
 ```
 
-2. Add next line to your `.eslintrc.js`:
+## Usage:
 
-```json
-{
-  "extends": "@sanv/eslint-config-base"
+#### eslint-config-base
+```js
+module.exports = {
+  plugins: ['prettier'],
+  extends: [
+    '@sanv/eslint-config-base',
+    'plugin:prettier/recommended',
+  ],
 }
 ```
 
-## React
-
-1. Install the correct version of package, which are listed by the command:
-
-```bash
-npm install "@sanv/eslint-config-react" --save-dev
-```
-
-2. Add next line to your `.eslintrc.js`:
-
-```json
-{
-  "extends": "@sanv/eslint-config-react"
+#### eslint-config-import
+```js
+module.exports = {
+  plugins: ['import'],
+  extends: [
+    '@sanv/eslint-config-import',
+  ],
 }
 ```
 
-## TypeScript
-
-1. Install the correct version of package, which are listed by the command:
-
-```bash
-npm install "@sanv/eslint-config-typescript" --save-dev
-```
-
-2. Add next line to your `.eslintrc.js`:
-
-```json
-{
-  "extends": "@sanv/eslint-config-typescript"
+#### eslint-config-import-typescript
+```js
+module.exports = {
+  plugins: ['import'],
+  extends: [
+    '@sanv/eslint-config-import-typescript',
+  ],
 }
 ```
 
-## React + TypeScript
-
-1. Install the correct version of package, which are listed by the command:
-
-```bash
-npm install "@sanv/eslint-config-react-typescript" --save-dev
-```
-
-2. Add next line to your `.eslintrc.js`:
-
-```json
-{
-  "extends": "@sanv/eslint-config-react-typescript"
+#### eslint-config-react
+```js
+module.exports = {
+  plugins: ['prettier', 'react', 'jsx-a11y'],
+  extends: [
+    '@sanv/eslint-config-react',
+    'plugin:prettier/recommended',
+    'prettier/react',
+  ],
 }
 ```
 
-## Storybook
-
-1. Install the correct version of package, which are listed by the command:
-
-```bash
-npm install "@sanv/eslint-config-stories" --save-dev
-```
-
-2. Add next line to your `.eslintrc.js`:
-
-```json
-{
-  "extends": "@sanv/eslint-config-stories"
+#### eslint-config-react-typescript
+```js
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['prettier', 'react', 'jsx-a11y', '@typescript-eslint'],
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+  },
+  extends: [
+    '@sanv/eslint-config-react-typescript',
+    'plugin:prettier/recommended',
+    'prettier/react',
+    'prettier/@typescript-eslint',
+  ],
 }
 ```
 
-## Storybook with TypeScript
-
-1. Install the correct version of package, which are listed by the command:
-
-```bash
-npm install "@sanv/eslint-config-stories-typescript" --save-dev
-```
-
-2. Add next line to your `.eslintrc.js`:
-
-```json
-{
-  "extends": "@sanv/eslint-config-stories-typescript"
+#### eslint-config-stories
+```js
+module.exports = {
+  plugins: ['prettier', 'react', 'jsx-a11y'],
+  extends: [
+    '@sanv/eslint-config-stories',
+    'plugin:prettier/recommended',
+    'prettier/react',
+  ],
 }
 ```
 
-## Tests
-
-1. Install the correct version of package, which are listed by the command:
-
-```bash
-npm install "@sanv/eslint-config-tests" --save-dev
-```
-
-2. Add next line to your `.eslintrc.js`:
-
-```json
-{
-  "extends": "@sanv/eslint-config-tests"
+#### eslint-config-stories-typescript
+```js
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['prettier', 'react', 'jsx-a11y', '@typescript-eslint'],
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+  },
+  extends: [
+    '@sanv/eslint-config-stories-typescript',
+    'plugin:prettier/recommended',
+    'prettier/react',
+    'prettier/@typescript-eslint',
+  ],
 }
 ```
 
-## Tests with TypeScript
-
-1. Install the correct version of package, which are listed by the command:
-
-```bash
-npm install "@sanv/eslint-config-tests-typescript" --save-dev
-```
-
-2. Add next line to your `.eslintrc.js`:
-
-```json
-{
-  "extends": "@sanv/eslint-config-tests-typescript"
+#### eslint-config-tests
+```js
+module.exports = {
+  plugins: ['prettier', 'react', 'jsx-a11y', 'jest'],
+  extends: [
+    '@sanv/eslint-config-tests',
+    'plugin:prettier/recommended',
+    'prettier/react',
+  ],
 }
 ```
+
+#### eslint-config-tests-typescript
+```js
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['prettier', 'react', 'jsx-a11y', 'jest', '@typescript-eslint'],
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+  },
+  extends: [
+    '@sanv/eslint-config-tests-typescript',
+    'plugin:prettier/recommended',
+    'prettier/react',
+    'prettier/@typescript-eslint',
+  ],
+}
+```
+
+#### eslint-config-tests-typescript
+```js
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['prettier', '@typescript-eslint'],
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+  },
+  extends: [
+    '@sanv/eslint-config-tests-typescript',
+    'plugin:prettier/recommended',
+    'prettier/@typescript-eslint',
+  ],
+}
+```
+
+#### eslint-config-unicorn
+```js
+module.exports = {
+  plugins: ['prettier'],
+  extends: [
+    '@sanv/eslint-config-unicorn',
+    'plugin:prettier/recommended',
+  ],
+}
+```
+
+#### eslint-config-unicorn-typescript
+```js
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['prettier', '@typescript-eslint'],
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+  },
+  extends: [
+    '@sanv/eslint-config-unicorn-typescript',
+    'plugin:prettier/recommended',
+    'prettier/@typescript-eslint',
+  ],
+}
+```
+
+## TypeScript Configuration:
+[https://github.com/SanderV1992/tsconfig/blob/master/tsconfig.json](https://github.com/SanderV1992/tsconfig/blob/master/tsconfig.json)

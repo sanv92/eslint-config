@@ -1,6 +1,6 @@
-# ESLint Config for StoryBook with TypeScript
+# Eslint Storybook Configuration with Typescript Support
 
-## Storybook
+[![npm version](https://badge.fury.io/js/%40sanv%2Feslint-config-stories-typescript.svg)](https://badge.fury.io/js/%40sanv%2Feslint-config-stories-typescript)
 
 1. Install the correct version of package, which are listed by the command:
 
@@ -10,8 +10,19 @@ npm install "@sanv/eslint-config-stories-typescript" --save-dev
 
 2. Add next line to your `.eslintrc.js`:
 
-```json
-{
-  "extends": "@sanv/eslint-config-stories-typescript"
+```js
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['prettier', 'react', 'jsx-a11y', '@typescript-eslint'],
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+  },
+  extends: [
+    '@sanv/eslint-config-stories-typescript',
+    'plugin:prettier/recommended',
+    'prettier/react',
+    'prettier/@typescript-eslint',
+  ],
 }
 ```
