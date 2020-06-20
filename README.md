@@ -187,3 +187,6 @@ module.exports = {
 
 ## TypeScript Configuration:
 [https://github.com/SanderV1992/tsconfig/blob/master/tsconfig.json](https://github.com/SanderV1992/tsconfig/blob/master/tsconfig.json)
+
+## Prettier Configuration:
+[https://github.com/SanderV1992/eslint-config/blob/master/prettier.config.js](https://github.com/SanderV1992/eslint-config/blob/master/prettier.config.js)
