@@ -2,19 +2,36 @@
 
 ## Installation:
 
+#### NPM
+```bash
+npx install-peerdeps --dev @sanv/eslint-config-base
+npx install-peerdeps --dev @sanv/eslint-config-import
+npx install-peerdeps --dev @sanv/eslint-config-import-typescript
+npx install-peerdeps --dev @sanv/eslint-config-react
+npx install-peerdeps --dev @sanv/eslint-config-react-typescript
+npx install-peerdeps --dev @sanv/eslint-config-stories
+npx install-peerdeps --dev @sanv/eslint-config-stories-typescript
+npx install-peerdeps --dev @sanv/eslint-config-tests
+npx install-peerdeps --dev @sanv/eslint-config-tests-typescript
+npx install-peerdeps --dev @sanv/eslint-config-typescript
+npx install-peerdeps --dev @sanv/eslint-config-unicorn
+npx install-peerdeps --dev @sanv/eslint-config-unicorn-typescript
 ```
-npm install --save-dev @sanv/eslint-config-base
-npm install --save-dev @sanv/eslint-config-import
-npm install --save-dev @sanv/eslint-config-import-typescript
-npm install --save-dev @sanv/eslint-config-react
-npm install --save-dev @sanv/eslint-config-react-typescript
-npm install --save-dev @sanv/eslint-config-stories
-npm install --save-dev @sanv/eslint-config-stories-typescript
-npm install --save-dev @sanv/eslint-config-tests
-npm install --save-dev @sanv/eslint-config-tests-typescript
-npm install --save-dev @sanv/eslint-config-typescript
-npm install --save-dev @sanv/eslint-config-unicorn
-npm install --save-dev @sanv/eslint-config-unicorn-typescript
+
+#### YARN
+```bash
+npx install-peerdeps --yarn --dev @sanv/eslint-config-base
+npx install-peerdeps --yarn --dev @sanv/eslint-config-import
+npx install-peerdeps --yarn --dev @sanv/eslint-config-import-typescript
+npx install-peerdeps --yarn --dev @sanv/eslint-config-react
+npx install-peerdeps --yarn --dev @sanv/eslint-config-react-typescript
+npx install-peerdeps --yarn --dev @sanv/eslint-config-stories
+npx install-peerdeps --yarn --dev @sanv/eslint-config-stories-typescript
+npx install-peerdeps --yarn --dev @sanv/eslint-config-tests
+npx install-peerdeps --yarn --dev @sanv/eslint-config-tests-typescript
+npx install-peerdeps --yarn --dev @sanv/eslint-config-typescript
+npx install-peerdeps --yarn --dev @sanv/eslint-config-unicorn
+npx install-peerdeps --yarn --dev @sanv/eslint-config-unicorn-typescript
 ```
 
 ## Usage:
