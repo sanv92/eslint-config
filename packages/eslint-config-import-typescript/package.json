@@ -38,7 +38,7 @@
     "prettier": "^2.0.5"
   },
   "peerDependencies": {
-    "@sanv/eslint-config-import": "^1.2.16",
+    "@sanv/eslint-config-import": "^2.0.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0 || ^7.2.0",
     "eslint-plugin-import": "^2.21.2",

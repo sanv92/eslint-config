@@ -46,8 +46,8 @@
     "prettier": "^2.0.5"
   },
   "peerDependencies": {
-    "@sanv/eslint-config-base": "^1.2.18",
-    "@sanv/eslint-config-react": "^1.2.18",
+    "@sanv/eslint-config-base": "^2.0.1",
+    "@sanv/eslint-config-react": "^2.0.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0 || ^7.2.0",
     "eslint-config-airbnb": "^18.1.0",
