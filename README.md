@@ -177,7 +177,7 @@ module.exports = {
 #### eslint-config-unicorn
 ```js
 module.exports = {
-  plugins: ['prettier'],
+  plugins: ['prettier', 'unicorn'],
   extends: [
     '@sanv/eslint-config-unicorn',
     'plugin:prettier/recommended',
@@ -189,7 +189,7 @@ module.exports = {
 ```js
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['prettier', '@typescript-eslint'],
+  plugins: ['prettier', 'unicorn', '@typescript-eslint'],
   parserOptions: {
     project: './tsconfig.json',
     sourceType: 'module',
