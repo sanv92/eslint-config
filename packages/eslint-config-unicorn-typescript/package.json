@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/eslint-config-unicorn-typescript",
-  "version": "1.2.18",
+  "version": "2.0.0",
   "description": "Eslint Unicorn Configuration with Typescript Support",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -31,7 +31,7 @@
     "eslint storybook"
   ],
   "dependencies": {
-    "@sanv/eslint-config-unicorn": "^1.2.16",
+    "@sanv/eslint-config-unicorn": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0 || ^7.2.0",
     "eslint-plugin-import": "^2.21.2",
