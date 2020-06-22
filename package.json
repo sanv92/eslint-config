@@ -16,18 +16,21 @@
   "homepage": "https://github.com/SanderV1992/eslint-config#readme",
   "license": "ISC",
   "keywords": [
+    "config",
     "eslint-config",
     "eslint",
-    "config",
     "react eslint config",
     "react eslint",
-    "react typescript config",
-    "typescript config",
     "eslint jest config",
     "eslint jest",
     "eslint stories config",
     "eslint stories",
-    "eslint storybook"
+    "eslint storybook",
+    "react typescript config",
+    "typescript",
+    "typescript config",
+    "prettier",
+    "prettier config"
   ],
   "scripts": {
     "test": "lerna exec 'npm test'",
