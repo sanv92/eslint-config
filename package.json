@@ -45,7 +45,7 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "@sanv/sharec-config": "1.0.17",
+    "@sanv/sharec-config": "1.0.19",
     "cz-conventional-changelog": "3.0.2",
     "husky": "4.2.5",
     "lerna": "3.22.0",
@@ -59,7 +59,7 @@
   },
   "sharec": {
     "config": "@sanv/sharec-config",
-    "version": "1.0.17"
+    "version": "1.0.19"
   },
   "engines": {
     "node": ">=8"
