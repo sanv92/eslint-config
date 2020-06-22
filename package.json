@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@sanv/eslint-config",
-  "description": "Store \"Collection of shareable ESLint configs\" in one place and share between projects without any pain",
+  "description": "Collection of shareable \"ESLint/Prettier/TypeScript\" configs",
   "publishConfig": {
     "access": "public"
   },
