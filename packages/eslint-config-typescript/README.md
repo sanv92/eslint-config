@@ -19,8 +19,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    'plugin:@typescript-eslint/recommended',
-    '@sanv/eslint-config-base',
+    '@sanv/eslint-config-typescript',
     'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
   ],
