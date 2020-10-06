@@ -1,7 +1,8 @@
 {
   "private": true,
   "name": "@sanv/eslint-config",
-  "description": "Collection of shareable \"ESLint/Prettier/TypeScript\" configs",
+  "version": "1.0.0",
+  "description": "Collection of shareable ESLint/Prettier/TypeScript configs",
   "publishConfig": {
     "access": "public"
   },
@@ -38,7 +39,7 @@
     "prepublishOnly": "lerna exec 'npm test'",
     "publish": "lerna publish",
     "commit": "npx git-cz",
-    "prettier": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\"",
+    "prettier": "prettier --write ./src/**/**.{ts,tsx,js,jsx,json}",
     "sharec": "sharec"
   },
   "workspaces": ["packages/*"],
